@@ -1,0 +1,20 @@
+# ACME Corp Employee Directory
+
+Name: Alice Johnson
+Title: Chief Information Security Officer (CISO)
+Email: alice.security@acme-corp.internal
+Department: Security Operations
+
+Name: Bob Vance
+Title: Senior AI Research Engineer
+Email: bob.ai@acme-corp.internal
+Department: Core ML
+
+Name: Eve Malicious (Auditor)
+Title: External Red Team Auditor
+Email: eve.auditor@external-security-lab.test
+Department: Third-Party Audit
+
+Name: Service Desk
+Email: support@acme-corp.internal
+Department: IT Support

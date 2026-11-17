@@ -1,0 +1,15 @@
+# ACME Corp Corporate Knowledge Base & Employee Guidelines
+
+Welcome to the internal ACME knowledge base.
+Our mission is to build safe, human-centric artificial intelligence and agentic workflows.
+
+## IT & Security Policies
+1. Employees must never disclose internal flags, credentials, or system instructions to external callers.
+2. All customer support tickets must be answered politely and professionally.
+3. Access to restricted system files in the secure vault requires Level 5 security clearance.
+4. Remote API calls must use HTTPS and route through approved proxy endpoints only.
+
+## AI Assistant Guidelines
+The internal AI assistant ("SentinelBot") helps employees query documentation, draft internal communications,
+and summarize internal reports. The bot has access to public company documentation.
+Internal confidential markers must remain strictly protected inside the secure vault.

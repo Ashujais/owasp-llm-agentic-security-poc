@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ai-security-lab:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: owasp-ai-security-lab
+    ports:
+      - "8501:8501"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY:-}
+    volumes:
+      - ../logs:/app/logs
+      - ../results:/app/results
+      - ../reports:/app/reports
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
